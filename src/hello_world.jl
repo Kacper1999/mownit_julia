@@ -16,7 +16,7 @@ function dot_product(df1, df2)
 end
 
 df = DataFrame(col1 = 1:10, col2 = 1:10, col3 = 1:10)
-a = [1 2; 3 4]
+a = [[1, 2], [3, 4]]
 u = [1 4; 2 3]
 println(a)
 println(u)
